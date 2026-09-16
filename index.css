@@ -14,6 +14,9 @@ section [class^="container"] {
 section:not(:first-of-type){
   text-align: center;
 }
+section:nth-child(2n) {
+  background-color: #EBDDD3;
+}
 
 /* Navbar */
 
@@ -47,7 +50,7 @@ section:not(:first-of-type){
     width: 350px;
     height: 350px;
     object-fit: cover;
-    border: 4px solid #000000;
+    border: 2px solid #ffffff;
 }
 
 section.Myphoto {
@@ -66,7 +69,7 @@ section.Myphoto img{
 
 /* Skills */
 
-section.SKills i{
+section.Skills i{
   font-size: 2rem;
   margin: 1rem auto 0;
   border: 2px solid #000000;
@@ -80,6 +83,15 @@ section.SKills i{
     max-width: 22rem;
     margin-inline: auto;
 }
+.btn-outline-dark {
+  border: 2px solid: #998679;
+  box-shadow: 4px 4px #998679;
+}
+
+.btn-outline-dark:hover {
+  box-shadow: 4px 4px #E2CEC9;
+}
+
 
 /* ABOUT */
 
