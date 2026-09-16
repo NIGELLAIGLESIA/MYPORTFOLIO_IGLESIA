@@ -75,10 +75,18 @@ section.SKills i{
   border-radius: 50%;
 }
   section .card {
-    border: 2px solid #E75480;
-    box-shadow: 4px 4px #E75480;
+    border: 2px solid #00000;
+    box-shadow: 4px 4px #000000;
     max-width: 22rem;
     margin-inline: auto;
+}
+
+/* ABOUT */
+
+@media screen and (min-width: 1024px) {
+    section.about .container {
+        width: 60%;
+    }
 }
 
   
