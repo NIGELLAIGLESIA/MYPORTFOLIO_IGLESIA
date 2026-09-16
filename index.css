@@ -11,6 +11,10 @@ section [class^="container"] {
 }
 }
 
+section:not(:first-of-type){
+  text-align: center;
+}
+
 /* Navbar */
 
 .navbar {
@@ -59,5 +63,17 @@ section.Myphoto img{
   width: 70%;
 }
 }
+
+/* Skills */
+
+section.SKills i{
+  font-size: 2rem;
+  margin: 1rem auto 0;
+  border: 2px solid #000000;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+}
+  
   
   
