@@ -74,6 +74,12 @@ section.SKills i{
   height: 4rem;
   border-radius: 50%;
 }
-  
+  section .card {
+    border: 2px solid #E75480;
+    box-shadow: 4px 4px #E75480;
+    max-width: 22rem;
+    margin-inline: auto;
+}
+
   
   
