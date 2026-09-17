@@ -1,65 +1,73 @@
 <!doctype html>
 <html lang="en">
+  
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>MY PORTFOLIO IGLESIA</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" 
       integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="index.css">
-</head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">  
+ </head>
 
+<!-- start -->
+  
 <body>
 
-<nav class="navbar navbar-expand-lg fixed-top shadow-sm">
+<nav class="navbar navbar-expand-lg fixed-top shadow-sm" style="background-color: #F6E5E7;">
   <div class="container-lg">
-    <a class="navbar-brand fw-bold" href="#">My Portfolio</a>
+   <a class="navbar-brand fw-bold" href="#" style="color: #000000;">My Portfolio</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav mx-auto">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#Myphoto">Home</a>
+        <a class="nav-link active" aria-current="page" href="#Myphoto" style="color: #000000;">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#About-Me">About Me</a>
+         <a class="nav-link" href="#About-Me" style="color: #000000;">About Me</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#Skills">Skills</a>
+          <a class="nav-link" href="#Skills" style="color: #000000;">Skills</a>
         </li>
            <li class="nav-item">
-          <a class="nav-link" href="#Projects">Projects</a>
+          <a class="nav-link" href="#Projects" style="color: #000000;">Projects</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#Contact">Contact</a>
+          <a class="nav-link" href="#Contact" style="color: #000000;">Contact</a>
         </li>
       </ul>
-         <a class="btn btn-outline-dark d-none d-lg-block" href="#">Let's Talk</a>
+         <a class="btn d-none d-lg-block" href="#Contact"
+   style="border: 2px solid #828C6A; color: #000000;">
+   Let's Talk</a>
     </div>
   </div>
 </nav>
 
-  <section class="Myphoto" id="Myphoto">
-    <div class="container-lg">
+  <!-- Home -->
+  
+ <section class="Myphoto pt-5" id="Myphoto" style="background-color: #EFC0BC;">
+    <div class="container-lg py-5 px-4">
       <div class="row align-items-center">
         <div class="col-sm-6">
           <h1 class="display-2 fw-bold">NIGELLA IGLESIA</h1>
-          <p>Hi! I am a sophomore student at De La Salle–College of Saint Benilde Antipolo, currently taking Bachelor of Science in Information Systems. 
+          <p class="fs-5">Hi! I am a sophomore student at De La Salle–College of Saint Benilde Antipolo, currently taking Bachelor of Science in Information Systems. 
             I am currently building my knowledge and skills in programming, web development, and information systems.
           </p>
-        <button class="btn btn-outline-dark btn-lg">See Projects</button>
+        <a href="#Projects" class="btn btn-outline-dark btn-lg">See Projects</a>
       </div>
       <div class="col-sm-6 text-center">
-        <img src="MyPhoto.png" class="img-fluid rounded-circle profile-img" alt="My Photo">
+       <img src="MyPhoto.png" class="img-fluid rounded-circle w-75" alt="My Photo">
         </div>
       </div>
     </div>
   </section>
 
-  <section class="About-Me" id="About-Me">
-    <div class="container">
+  <!-- About Me -->
+
+  <section class="About-Me bg-body-tertiary" id="About-Me">
+     <div class="container-lg py-5 px-4">
         <h2 class="display-5 fw-bold mb-3">About Me</h2>
       <p>I’m a curious and creative learner who enjoys exploring new ideas and turning them into useful projects. 
         I like discovering new tools, improving my skills, and finding creative ways to solve problems.</p>
@@ -68,9 +76,11 @@
     </div>
 
   </section>
-
-  <section class="Skills" id="Skills">
-    <div class="container">
+  
+<!-- My Skills -->
+  
+ <section class="Skills bg-body-tertiary" id="Skills">
+     <div class="container-lg py-5 px-4">
         <h2 class="display-5 fw-bold mb-3">Skills</h2>
 
    <div class="row justify-content-center">
@@ -133,47 +143,52 @@
     </div>
 </section>
   
-
+<!-- My Projects -->
+  
       <section class="Projects" id="Projects">
-    <div class="container">
+     <div class="container-lg py-5 px-4">
         <h2 class="display-5 fw-bold mb-3">Projects</h2>
       
       <div class="card" style="width: 18rem;">
   
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <h5 class="card-title">STUDENT ENROLLMENT SYSTEM</h5>
+    <p class="card-text">A Java-based enrollment system designed to make student registration easier by allowing users to manage their personal information, 
+      select courses and sections, and view their enrollment status and schedule.</p>
+    <a href="#" class="btn btn-primary">See Project</a>
   </div>
 </div>
 
        <div class="card" style="width: 18rem;">
   
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <h5 class="card-title">LIBRARY CATALOG SYSTEM</h5>
+    <p class="card-text">A library management system designed to organize and manage books, users, and borrowing records. 
+      It helps users easily search for available books and keeps library records organized.</p>
+    <a href="#" class="btn btn-primary">See Project</a>
   </div>
 </div>
 
        <div class="card" style="width: 18rem;">
   
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <h5 class="card-title">PAYROLL SYSTEM</h5>
+    <p class="card-text">A simple payroll management system designed to calculate employee salaries, deductions, absences, and net pay while keeping employee payroll records organized.</p>
+    <a href="#" class="btn btn-primary">See Project</a>
   </div>
 </div>
       </section>
-    
-      <section class="Contact" id="Contact">
-    <div class="container">
+
+   <!-- Contact Me -->
+  
+      <section class="Contact bg-body-tertiary" id="Contact">
+     <div class="container-lg py-5 px-4">
         <h2 class="display-5 fw-bold mb-4">Contact</h2>
       <div class="row">
         <div class="col-sm-4>
           <div class="social-media">
           <a href="#"><i class="bi bi-linkedin"></i></a>
-          <a href="#"><i class="bi bi-email"></i></a>
+          <a href="#"><i class="bi bi-gmail"></i></a>
           <a href="#"><i class="bi bi-github"></i></a>
         </div>
     </div>
@@ -185,13 +200,17 @@
      </div>
      
       </section>
+
+   <!-- Footer -->
   
   <footer class="test-center bg-body-tertiary">
     <div>&copy; 2026. All rights Reserved.</div>
     
   </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
- 
+
+   <!-- Ends Here -->
+  
 </body>
 
 </html>
